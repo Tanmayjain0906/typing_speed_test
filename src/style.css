@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&family=Poppins:ital,wght@0,200;0,300;1,100;1,200&family=Rubik&family=Work+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.css-vubbuv
+{ 
+    width: 2em;
+    height: 2em; 
+}
+
+
+.nav-bar
+{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5% auto 0px;
+}
+
+.left
+{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-name
+{
+    font-family: "Black Ops One";
+    font-size: 30px;
+}
+
+.timer
+{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1% auto 0px;
+}
+
+.timer-btn
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.timer-btn button
+{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.typing-box-handler
+{
+    width: 1000px;
+    position: fixed;
+    bottom: 15%;
+    left: 43%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 350px;
+    align-items: center;
+}
+
+#reset-btn
+{
+    width: 2em;
+    height: 2em; 
+    fill: black
+}
+
+#esc-btn
+{
+    background: black;
+    padding: 5px;
+    margin: 0.2rem;
+    color: white;
+    border: none;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.esc span
+{
+    font-size: 20px;
+}
+
+.words-length span
+{
+    font-size: 20px;
+}
+
+.words-length button
+{
+    background: black;
+    padding: 5px;
+    margin: 0.2rem;
+    color: white;
+    border: none;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.footer
+{
+    width: 1000px;
+    position: fixed;
+    bottom: 6%;
+    left: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-media
+{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.theame-box
+{
+    border: 0.15px solid black;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
