@@ -146,6 +146,20 @@
     padding: 5px;
 }
 
+.correct
+{
+    color: green;
+}
+
+.wrong
+{
+    color: red;
+}
+
+#input-feild
+{
+   opacity: 0;
+}
 
 
 
